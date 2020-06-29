@@ -7,6 +7,7 @@ RUN pip install redis
 RUN pip install certifi
 RUN pip install urllib3[secure]
 RUN pip install ipython
+RUN pip install --upgrade 'sentry-sdk==0.15.1'
 
 
 EXPOSE 8000
